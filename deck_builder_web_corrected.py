@@ -4,16 +4,22 @@ import streamlit as st
 # Données des cartes
 CARDS = {
     "Machina": {
-        "Légendaires": ["M-L1", "M-L2"],
-        "Rares": [f"M-R{i}" for i in range(1, 14)]
+        "Légendaires": ["Biocat", "Golaimen"],
+        "Rares": ["Angre-cig", "Atomicmush", "Fusox", "Machina_Rare_7", "Bzzzzip",
+                "Anuvis", "Encable", "Machina_Rare_8", "Machina_Rare_9", "Machina_Rare_10",
+                "Machina_Rare_11", "Machina_Rare_12", "Machina_Rare_13"]
     },
     "Evil": {
-        "Légendaires": ["E-L1", "E-L2"],
-        "Rares": [f"E-R{i}" for i in range(1, 14)]
+        "Légendaires": ["Chichipou", "Yagaström"],
+        "Rares": ["Blindufer", "Arébat", "Katacroix", "Perçame", "Bob",
+             "Cœurlette", "Sérandge", "Pandevil", "Mouspion", "Électruc",
+             "Evil_Rare_11", "Evil_Rare_12", "Evil_Rare_13"]
     },
     "Legends": {
-        "Légendaires": ["L-L1", "L-L2"],
-        "Rares": [f"L-R{i}" for i in range(1, 14)]
+        "Légendaires": ["Superbin", "Serbyrinthe"],
+        "Rares": ["Magicone", "Pizzaïdon", "Chegeva-Rat", "Hípopo", "Nainthore",
+                "Gazper", "Supertoile", "Legends_Rare_8", "Legends_Rare_9", "Legends_Rare_10",
+                "Legends_Rare_11", "Legends_Rare_12", "Legends_Rare_13"]
     }
 }
 
